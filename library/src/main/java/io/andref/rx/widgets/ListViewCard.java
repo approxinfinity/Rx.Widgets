@@ -112,7 +112,7 @@ public class ListViewCard extends FrameLayout
         mContainer.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
     }
 
-    private void layoutViews()
+    public void layoutViews()
     {
         mContainer.removeAllViews();
 
